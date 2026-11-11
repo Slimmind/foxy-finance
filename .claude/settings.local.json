@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(npx vitest *)",
+      "Bash(npx tsx *)",
+      "Bash(python3 -)",
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(npx vite *)",
+      "Bash(mkdir -p /tmp/foxy-e2e)",
+      "Read(//tmp/**)",
+      "Bash(npm init *)",
+      "Bash(npm i *)",
+      "Bash(node run.mjs)",
+      "Bash(pkill -f \"vite preview\")",
+      "Bash(node secure.mjs)",
+      "Bash(mv /tmp/styles.new src/styles.css)",
+      "Bash(sed -i '' \"/@fontsource\\\\/press-start-2p\\\\/index.css/d\" src/main.tsx)",
+      "Bash(echo \"tsc exit: $?\")",
+      "Bash(npm ci *)"
+    ]
+  }
+}
